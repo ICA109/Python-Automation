@@ -8,6 +8,7 @@ def collatz(number):
         print(tmp)
         return tmp
 
+
 try:
     print('Enter number:')
     userInput = int(input())
