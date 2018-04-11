@@ -1,8 +1,8 @@
 def collatz(number):
-    if number%2 == 0:
-       tmp = number // 2
-       print(tmp)
-       return tmp
+    if number % 2 == 0:
+        tmp = number
+        print(tmp)
+        return tmp
     else:
         tmp = 3 * number + 1
         print(tmp)
